@@ -1,0 +1,2 @@
+[0m[[0m[0mdebug[0m] [0m[0mExecuting Native docker build --force-rm -t hello:0.1.0-SNAPSHOT .[0m
+[0m[[0m[0mdebug[0m] [0m[0mWorking directory F:\knowledge\sbt\sbtdoc\SbtProject\target\docker\stage[0m

@@ -1,0 +1,24 @@
+[0m[[0m[31merror[0m] [0m[0mF:\knowledge\sbt\sbtdoc\SbtProject\core\src\main\scala\example\core\Weather.scala:3:8: not found: object gigahorse[0m
+[0m[[0m[31merror[0m] [0m[0mimport gigahorse._, support.okhttp.Gigahorse[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0mF:\knowledge\sbt\sbtdoc\SbtProject\core\src\main\scala\example\core\Weather.scala:3:21: not found: object support[0m
+[0m[[0m[31merror[0m] [0m[0mimport gigahorse._, support.okhttp.Gigahorse[0m
+[0m[[0m[31merror[0m] [0m[0m                    ^[0m
+[0m[[0m[31merror[0m] [0m[0mF:\knowledge\sbt\sbtdoc\SbtProject\core\src\main\scala\example\core\Weather.scala:5:8: not found: object play[0m
+[0m[[0m[31merror[0m] [0m[0mimport play.api.libs.json._[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0mF:\knowledge\sbt\sbtdoc\SbtProject\core\src\main\scala\example\core\Weather.scala:8:19: not found: value Gigahorse[0m
+[0m[[0m[31merror[0m] [0m[0m  lazy val http = Gigahorse.http(Gigahorse.config)[0m
+[0m[[0m[31merror[0m] [0m[0m                  ^[0m
+[0m[[0m[31merror[0m] [0m[0mF:\knowledge\sbt\sbtdoc\SbtProject\core\src\main\scala\example\core\Weather.scala:8:34: not found: value Gigahorse[0m
+[0m[[0m[31merror[0m] [0m[0m  lazy val http = Gigahorse.http(Gigahorse.config)[0m
+[0m[[0m[31merror[0m] [0m[0m                                 ^[0m
+[0m[[0m[31merror[0m] [0m[0mF:\knowledge\sbt\sbtdoc\SbtProject\core\src\main\scala\example\core\Weather.scala:10:13: not found: value Gigahorse[0m
+[0m[[0m[31merror[0m] [0m[0m    val r = Gigahorse.url("https://query.yahooapis.com/v1/public/yql").get.[0m
+[0m[[0m[31merror[0m] [0m[0m            ^[0m
+[0m[[0m[31merror[0m] [0m[0mF:\knowledge\sbt\sbtdoc\SbtProject\core\src\main\scala\example\core\Weather.scala:26:14: not found: value Json[0m
+[0m[[0m[31merror[0m] [0m[0m    val js = Json.parse(rawJson)[0m
+[0m[[0m[31merror[0m] [0m[0m             ^[0m
+[0m[[0m[31merror[0m] [0m[0mF:\knowledge\sbt\sbtdoc\SbtProject\core\src\main\scala\example\core\Weather.scala:28:17: not found: value JsString[0m
+[0m[[0m[31merror[0m] [0m[0m      case Some(JsString(x)) => Future.successful(x.toLowerCase)[0m
+[0m[[0m[31merror[0m] [0m[0m                ^[0m
